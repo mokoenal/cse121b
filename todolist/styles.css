@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+}
+
+#task-list {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+#task-form {
+    padding: 10px;
+}
