@@ -39,7 +39,7 @@ addTaskButton.addEventListener('click', function () {
   }
 });
 
-// Fetch the JSON data from your file
+// Fetch the JSON data from the file
 fetch('https://raw.githubusercontent.com/mokoenal/todolist.json/main/project')
   .then((response) => response.json())
   .then((data) => {
@@ -52,10 +52,7 @@ fetch('https://raw.githubusercontent.com/mokoenal/todolist.json/main/project')
         taskItem.classList.add('completed');
         taskItem.style.textDecoration = 'line-through'; // Add line-through text decoration
       }
-
-      // Create buttons for marking tasks as complete and deleting them
-      // ... (your existing code for this)
-
+     
       // Append the task item to your task list
       taskList.appendChild(taskItem);
     });
