@@ -22,3 +22,8 @@ h1 {
 #task-form {
     padding: 10px;
 }
+
+/* Add this to style completed tasks with a strikethrough effect */
+.completed {
+    text-decoration: line-through;
+}
